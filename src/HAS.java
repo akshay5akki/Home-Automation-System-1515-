@@ -12,8 +12,19 @@ public class HAS
  
  public String getName()
  {
-	 
+	 return name;
  }
+ 
+ public int getNo()
+ {
+	 return no;
+ }
+ 
+ public int getsize()
+ {
+	 return size;
+ }
+ 
  
  
 }
