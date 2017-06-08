@@ -1,4 +1,7 @@
+import java.rmi.Remote;
 
-public class ac {
+public interface ac extends Remote 
+{
+	public int on=1, off=0;
 
 }
